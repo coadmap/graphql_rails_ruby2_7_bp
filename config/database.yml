@@ -9,13 +9,13 @@ default: &default
 
 development:
   <<: *default
-  database: tick_note_development
+  database: wonder_scrum_development
 
 test:
   <<: *default
-  database: tick_note_test
+  database: wonder_scrum_test
 
 production:
   <<: *default
-  database: tick_note_production
+  database: wonder_scrum_production
   password: <%= ENV['APP_DATABASE_PASSWORD'] %>

@@ -1,24 +1,13 @@
-# README
+# 「Wonder Scrum」
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## 概要
+WonderScrum専用のボイラープレート Rails6（REST API）+ Docker + PostgreSQL + Graphql
 
-Things you may want to cover:
+## 開発環境構築
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### 環境構築する手順
+1. .envファイルを作成
+2. .env.sampleの中身を.envファイルにコピペする
+3. DATABASE_NAME=example_developmentをDATABASE_NAME=wonder-scrum_developmentに変更する
+4. database.ymlの[example]をwonder-scrumに変更する
+5. docker-compose up -d --buildコマンドを叩いて、完了

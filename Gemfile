@@ -20,6 +20,7 @@ gem 'pg', '~> 1.1'
 gem 'puma', '~> 5.0'
 gem 'rack-cors'
 gem 'tzinfo-data'
+gem 'mimemagic', '~> 0.3.9'
 
 group :development, :test do
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
